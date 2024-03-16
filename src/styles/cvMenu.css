@@ -1,0 +1,147 @@
+.contenedor{
+    margin-top: 5vh;
+    height: 500%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -3;
+    padding-bottom: 30vh;
+
+}
+
+.contenedor_texto {
+    margin-left: 10%;
+}
+
+.cabecera{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.nombre{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    color: var(--azuloscuro);
+    
+}
+
+.nombre h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.formacion{
+    position: relative;
+    top: 50px;
+    padding-right: 10%;
+    color: var(--naranjaclaro);
+}
+.formacion h3{
+    font-size: 24px;
+}
+.formacion__estudios{
+    padding-top: 10px;
+}
+
+h4 {
+    color: var(--azuloscuro);
+}
+
+.formacion__estudios h4, h5, h6{
+    display: inline;
+}
+
+h5{
+    font-weight: normal;
+}
+
+h6{
+    color: #f5a0167f;
+}
+
+.experiencia{
+    position: relative;
+    top: 120px;
+    padding-right: 10%;
+    margin-top: 30px;
+    color: var(--naranjaclaro);
+}
+
+.experiencia h3{
+    font-size: 24px;
+}
+
+.habilidades{
+    position: relative;
+    top: 100px;
+    margin-right: 30px;
+    margin-top: 80px;
+    color: var(--naranjaclaro);
+}
+
+.habilidades h3{
+    font-size: 24px;
+}
+
+.nav-cv {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* -----------------------RESPONSIVE 700PX------------------------- */
+@media only screen and (min-width: 700px) {
+    .cabecera{
+        top: 60px;
+    }   
+    .habilidades {
+        margin-top: 80px;
+        left: 0;
+    }
+    .contenedor_texto {
+        margin-left: 10%;
+    }
+
+    .nombre h2{
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .formacion{ 
+        top: 80px;
+    }
+
+}
+
+/* -----------------------RESPONSIVE 1024------------------------- */
+
+@media only screen and (min-width: 1024px) {
+    .contenedor_texto{
+        display: flex;
+        margin: auto;
+    }
+    
+    .contenedor_1{
+        width: 70%;
+        order: 2;
+    }
+    
+    .contenedor_2{
+        width: 30%;
+        padding-left: 30px;
+        order: 1;
+    }
+    .habilidades{
+        margin-top: 0px;
+        left: 30px;
+    }
+
+    .nombre h2{
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .formacion{ 
+        top: 100px;
+    }
+    
+}

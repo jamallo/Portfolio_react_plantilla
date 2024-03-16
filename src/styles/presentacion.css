@@ -1,0 +1,133 @@
+.contenedor_carrousel {
+    text-align: center;
+    color: #D0850C;
+  }
+  
+  .crsl{
+    width: 700px;
+    margin: auto;
+    
+  }
+
+  .crsl img {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px #181106 solid;
+    border-radius: 10%;
+    border-color: #D0850C;
+    width: 100vh;
+  }
+  .control-arrow {
+    display: none;
+  }
+  .legenda {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: auto;
+    border-radius: 10px;
+    background: #000;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+    transition: opacity .35s ease-in-out;
+  }
+  .legendaa {
+    position: absolute;
+    bottom: 40px;
+    right: 50%;
+    margin-right: -45%;
+    width: auto;
+    border-radius: 10px;
+    background: #000;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+    transition: opacity .35s ease-in-out;
+  }
+  .legenda:hover{
+    opacity: 1;
+  }
+  .legendaa:hover{
+    opacity: 1;
+  }
+  .legenda a{
+    color: #D0850C;
+  }
+  .legendaa a{
+    color: #D0850C;
+  }
+
+  .selected {
+    border-radius: 10%;
+    border: 1px #D0850C solid;
+  }
+
+  @media (max-width: 1100px) {
+    .crsl{
+      width: 600px;
+      margin: auto;
+      
+    }
+    .contenedor_carrousel h1 {
+      font-size: 24px;
+    }
+    .legenda {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      margin-left: -45%;
+      width: auto;
+      border-radius: 10px;
+      background: #000;
+      padding: 10px;
+      font-size: 12px;
+      text-align: center;
+      opacity: 0.6;
+      transition: opacity .35s ease-in-out;
+    }
+    .legendaa {
+      position: absolute;
+      bottom: 30px;
+      right: 50%;
+      margin-left: -45%;
+      width: auto;
+      border-radius: 10px;
+      background: #000;
+      padding: 10px;
+      font-size: 12px;
+      text-align: center;
+      opacity: 0.6;
+      transition: opacity .35s ease-in-out;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .crsl{
+      width: 350px;
+      margin: auto;
+      
+    }
+    .contenedor_carrousel {
+      margin-top: 60px;
+    }
+    .contenedor_carrousel h1 {
+      font-size: 24px;
+    }
+    .legenda {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      margin-left: -45%;
+      width: auto;
+      border-radius: 10px;
+      background: #000;
+      padding: 10px;
+      font-size: 10px;
+      text-align: center;
+      opacity: 0.6;
+      transition: opacity .35s ease-in-out;
+    }
+  }
